@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/analogClockWidgetFragment">
+
+    <fragment
+        android:id="@+id/analogClockWidgetFragment"
+        android:name="com.example.views_and_animations.AnalogClockWidgetFragment"
+        android:label="AnalogClockWidgetFragment"
+        tools:layout="@layout/fragment_widget_analog_clock"/>
+
+</navigation>
